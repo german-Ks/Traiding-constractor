@@ -199,85 +199,11 @@ main {
   font-size: 18px;
 }
 
-.futures-block {
-  margin: 15px;
-  background-color: #050e30;
-  padding: 20px;
-  border-radius: 8px;
-  color: #ffffff;
-  width: 1320px;
-  height: 580px;
-  border-color: #0f1830;
-  border-style: solid;
-}
-
-.futures-block h2 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-}
-
-.futures-block h2 span {
-  color: #050e30;
-  font-size: 14px;
-}
-
-.pair {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-radius: 20px;
-  border-bottom: 1px solid #050e30;
-  transition: background-color 0.3s;
-  cursor: pointer;
-  background-color: #494949;
-}
-
-.pair:last-child {
-  border-bottom: none;
-}
-
-.pair:hover {
-  background-color: #050e30;
-}
-
 .icon {
   width: 24px;
   height: 24px;
   border-radius: 50%;
   margin-right: 10px;
-}
-
-.btc {
-  background-color: #f7931a;
-}
-.eth {
-  background-color: #627eea;
-}
-.doge {
-  background-color: #c2a633;
-}
-.sol {
-  background-color: #3c3c94;
-}
-.trump {
-  background-color: #e74c3c;
-}
-.x {
-  background-color: #000000;
-}
-.sui {
-  background-color: #00bfff;
-}
-
-.pair-name {
-  flex: 1;
-  color: #ffffff;
-  font-size: 14px;
 }
 
 .price {
@@ -300,6 +226,7 @@ main {
 }
 
 .stats-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -344,18 +271,39 @@ main {
 
 .promo-cards {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   justify-content: center;
   width: 100%;
-  max-width: 1000px;
+  margin-bottom: 40px;
 }
 
-.promo-card {
+.promo-card1 {
+  width: 380px;
+  height: 180px;
+  background-image: url(/images/mainSvg/firstpic.svg);
   background-color: #232627;
   padding: 20px;
-  border-radius: 8px;
   text-align: center;
-  width: 300px;
+  color: #ffffff;
+}
+
+.promo-card2 {
+  width: 380px;
+  height: 180px;
+  background-image: url(/images/mainSvg/seconpic.svg);
+  background-color: #232627;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo-card3 {
+  width: 380px;
+  height: 180px;
+  background-image: url(/images/mainSvg/thirdpic.svg);
+  background-color: #232627;
+  padding: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -524,11 +472,62 @@ main {
   width: 33%;
 }
 
-.icon-placeholder {
-  background-color: #444;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+.bottom-icons {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.icon-placeholder1 {
+  background-image: url(/images/bottomSvg/atom1.svg);
+  width: 156px;
+  height: 31px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.icon-placeholder2 {
+  background-image: url(/images/bottomSvg/atom2.svg);
+  width: 156px;
+  height: 31px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+}
+.icon-placeholder3 {
+  background-image: url(/images/bottomSvg/atom3.svg);
+  width: 156px;
+  height: 31px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+}
+.icon-placeholder4 {
+  background-image: url(/images/bottomSvg/atom4.svg);
+  width: 156px;
+  height: 31px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+}
+.icon-placeholder5 {
+  background-image: url(/images/bottomSvg/atom5.svg);
+  width: 156px;
+  height: 31px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -548,22 +547,54 @@ main {
   margin-bottom: 20px;
 }
 
-/* .advantages-top-container > .advantage-card > .image-placeholder {
+.image-placeholder {
   max-width: 100%;
   height: auto;
   margin-bottom: 0;
 }
 
-.advantages-bottom-container > .advantage-card > .image-placeholder {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 0;
-} */
+.start-trading {
+  width: 100%;
+  padding: 140px 0;
+  background: url("./images/trading.jpg") no-repeat center center;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-.image-placeholder {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 0;
+.trading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 140px;
+}
+
+.trading-now {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.button-trading {
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1387d4;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button-trading:hover {
+  background-color: #0c0146;
+}
+
+.already-have {
+  font-size: 16px;
+  color: #fff;
 }
 
 /* Это футер */
@@ -578,21 +609,15 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  width: 100%; /* Full width for icon placeholders */
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%; /* Full width for stretching icons */
+  width: 100%;
 }
 
 .icon-placeholder {
   flex: 1;
   height: 40px;
-  background-color: #555; /* Placeholder color */
+  background-color: #555;
   border-radius: 5px;
-  margin: 0 5px; /* Small margin between icons */
+  margin: 0 5px;
 }
 
 .footer-details {
