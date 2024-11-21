@@ -1,3 +1,7 @@
+.dark {
+  background: #050e30 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +80,6 @@ main {
 .hero {
   background: url("/files/main.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 500px;
   width: 100%;
 }
 .nbr {
@@ -145,6 +148,10 @@ main {
   gap: 30px;
 }
 .hero .hero-info-container .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   height: 60px;
   width: 200px;
@@ -163,6 +170,10 @@ main {
     border-color 0.2s ease-in-out;
 }
 .hero .hero-info-container .btn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   background-color: #050e30;
   height: 60px;
@@ -280,14 +291,14 @@ main {
   gap: 40px;
   justify-content: center;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 .promo-card1 {
   background-size: cover;
   width: 380px;
   height: 180px;
-  background-image: url(/files/mainSvg/firstpic.svg);
+  background-image: url(/files/firstpic.svg);
   background-color: #232627;
   padding: 20px;
   text-align: center;
@@ -298,7 +309,7 @@ main {
   background-size: cover;
   width: 380px;
   height: 180px;
-  background-image: url(/files/mainSvg/seconpic.svg);
+  background-image: url(/files/seconpic.svg);
   background-color: #232627;
   padding: 20px;
   text-align: center;
@@ -309,7 +320,7 @@ main {
   background-size: cover;
   width: 380px;
   height: 180px;
-  background-image: url(/files/mainSvg/thirdpic.svg);
+  background-image: url(/files/thirdpic.svg);
   background-color: #232627;
   padding: 20px;
   text-align: center;
@@ -395,7 +406,6 @@ main {
 .advantages-section {
   margin-top: 140px;
   margin-bottom: 140px;
-  margin: 0 auto;
   text-align: center;
   max-width: 1024px;
 }
@@ -578,6 +588,7 @@ main {
 }
 
 .already-have {
+  cursor: pointer;
   font-size: 16px;
   color: #fff;
 }
@@ -819,7 +830,6 @@ footer {
     gap: 40px;
   }
   .promo-cards {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -876,9 +886,11 @@ footer {
     font-size: 14px;
   }
   .hero .hero-info-container .btn {
+    height: 46px;
     font-size: 14px;
   }
   .hero .hero-info-container .btn1 {
+    height: 46px;
     font-size: 14px;
   }
   .stat-item h3 {
@@ -887,22 +899,29 @@ footer {
   .stat-item p {
     font-size: 14px;
   }
+  .action-button {
+    width: 128px;
+    height: 40px;
+  }
+
   .promo-cards {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 24px;
+    gap: 20px;
   }
   .promo-card1 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 128px;
   }
   .promo-card2 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 128px;
   }
   .promo-card3 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 128px;
   }
   .table-cru {
     font-size: 20px;
@@ -929,10 +948,14 @@ footer {
   .already-have {
     font-size: 15px;
   }
+  .trading-section {
+    padding: 0 15px;
+  }
   .bottom-icons {
     flex-wrap: wrap;
   }
   .table-container {
+    margin-bottom: 24px;
     max-width: 320px !important;
   }
 }
