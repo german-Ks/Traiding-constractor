@@ -509,23 +509,23 @@ main {
 }
 
 .icon-placeholder-image1 {
-  background-image: url(/files/bottomSvg/atom1.svg);
+  background-image: url(/files/atom1.svg);
   background-size: cover;
 }
 .icon-placeholder-image2 {
-  background-image: url(/files/bottomSvg/atom2.svg);
+  background-image: url(/files/atom2.svg);
   background-size: cover;
 }
 .icon-placeholder-image3 {
-  background-image: url(/files/bottomSvg/atom3.svg);
+  background-image: url(/files/atom3.svg);
   background-size: cover;
 }
 .icon-placeholder-image4 {
-  background-image: url(/files/bottomSvg/atom4.svg);
+  background-image: url(/files/atom4.svg);
   background-size: cover;
 }
 .icon-placeholder-image5 {
-  background-image: url(/files/bottomSvg/atom5.svg);
+  background-image: url(/files/atom5.svg);
   background-size: cover;
 }
 
