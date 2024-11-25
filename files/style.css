@@ -75,6 +75,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+main .dark {
+  width: 100% !important;
 }
 
 .hero {
@@ -287,7 +292,7 @@ main {
 }
 
 .promo-cards {
-  display: flex;
+  display: none;
   gap: 40px;
   justify-content: center;
   width: 100%;
@@ -295,6 +300,7 @@ main {
 }
 
 .promo-card1 {
+  cursor: pointer;
   background-size: cover;
   width: 380px;
   height: 180px;
@@ -306,6 +312,7 @@ main {
 }
 
 .promo-card2 {
+  cursor: pointer;
   background-size: cover;
   width: 380px;
   height: 180px;
@@ -317,6 +324,7 @@ main {
 }
 
 .promo-card3 {
+  cursor: pointer;
   background-size: cover;
   width: 380px;
   height: 180px;
