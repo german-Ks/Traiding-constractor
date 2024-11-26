@@ -354,6 +354,7 @@ main .dark {
   background-color: #2f0069;
   color: white;
   padding: 50px;
+  width: 100%;
 }
 
 .title {
@@ -395,8 +396,8 @@ main .dark {
 .action-button {
   height: 38px;
   width: 160px;
-  background-color: #ffffff;
-  color: black;
+  background-color: #ffffff !important;
+  color: black !important;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -407,8 +408,8 @@ main .dark {
 }
 
 .action-button:hover {
-  color: white;
-  background-color: black;
+  color: white !important;
+  background-color: black !important;
 }
 
 .advantages-section {
